@@ -1,12 +1,10 @@
-import { Link } from "react-router-dom"
+import Hero from "./_components/Hero"
 
 const Home = () => {
   return (
-    <>
-      <Link to={"products"}>
-        <span className="font-bold text-2xl"> Go to products</span>
-      </Link>
-    </>
+    <div className="w-full min-h-full h-fit">
+      <Hero />
+    </div>
   )
 }
 
